@@ -1,34 +1,17 @@
 ---
-layout: default
-main_heading: Tweet more consistently with buffer
-button_text: Plans & Pricing
+layout: email_page
 ---
+<div class="row-fluid result">
+  <div class="span8 offset2">
+    <h2>Hello! You caught us before we're ready.</h2>
+    <p>We're working hard to put the finishing touches onto {{ site.app_name }}. Things are going well and it should be ready to help you very soon. If you'd like us to send you a reminder when we're ready, just put your email in below:</p>
 
-<div class="container">
-<hr/>
-	<div class="jumbotron">
-    <h1>{{ page.main_heading }}</h1>
+    <div class="input-append">
+    <input class="span5 offset2" id="appendedInputButton" type="text" placeholder="Email Address">
+    <button class="btn btn-success" type="button">Remind Me</button>
+    </div>    
   </div>
+</div>
 
-	<hr/>
-
-  <div class="row-fluid result">
-    <div class="span8 offset2">
-      <h2>Hello! You caught us before we're ready.</h2>
-      <p>We're working hard to put the finishing touches onto buffer. Things are going well and it should be ready to help you with Twitter very soon. If you'd like us to send you a reminder when we're ready, just put your email in below:</p>
-
-      <div class="input-append">
-      <input class="span5 offset2" id="appendedInputButton" type="text" placeholder="Email Address">
-      <button class="btn btn-success" type="button">Remind Me</button>
-      </div>    
-    </div>
-  </div>
   
 
-  <hr>
-
-  <div class="footer">
-    <p>&copy; 2010 buffer. All rights reserved.</p>
-  </div>
-
-</div> <!-- /container -->

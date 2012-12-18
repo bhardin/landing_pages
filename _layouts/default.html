@@ -22,9 +22,21 @@
   </head>
 
 <body>
-	
+	<div class="container">
+  <hr/>
+  
+  <div class="jumbotron">
+    <h1>{{ site.main_value }}</h1>
+  </div>
+
+  <hr/>
 	{{ content }}
-	
+	<hr/>
+
+  {% include footer.html %}
+
+  </div>
+
 	<!-- Placed at the end of the document so the pages load faster -->
 	{% include bootstrap.js.html %}
 </body>
