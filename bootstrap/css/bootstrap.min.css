@@ -837,7 +837,6 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 body{padding-bottom:40px;background:url(/bootstrap/img/bg_pattern.png) repeat 0 0;}
 .jumbotron{margin:30px 0;text-align:center;}.jumbotron h1{font-size:55px;line-height:1;}
 .button-center{text-align:center;vertical-align:middle;}
-.marketing{margin:50px 0 0 60px;}
-.marketing p+h4{margin-top:28px;}
-.result p{color:#AAA;font-size:16px;padding-bottom:15px;line-height:1.5;}
-.footer{color:#AAA;}
+.marketing{margin:50px 0 0 60px;}.marketing p{font-size:19px;line-height:31px;color:#999999;}
+.result p{color:#999999;font-size:19px;padding-bottom:15px;line-height:31px;}
+.footer{color:#999999;}

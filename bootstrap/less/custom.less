@@ -11,8 +11,6 @@
 body {
 	padding-bottom: 40px;
 	background: url(/bootstrap/img/bg_pattern.png) repeat 0 0;
-	@baseFontSize: 19px;
-	@baseLineHeight: 31px;
 }
 
 /* Main marketing message and sign up button */
@@ -34,22 +32,25 @@ body {
 /* Supporting marketing content */
 .marketing {
 	margin: 50px 0 0 60px;
-}
-.marketing p + h4 {
-margin-top: 28px;
+
+	p {
+		font-size: 19px;
+		line-height: 31px;
+		color: @grayLight;
+	}
 }
 
 /* Returning Page */
 .result {
 	p {
-		color: #AAA;
-		font-size: 16px;
+		color: @grayLight;
+		font-size: 19px;
 		padding-bottom: 15px;
-		line-height: 1.5;
+		line-height: 31px;
 	}
 }
 
 /* footer */
 .footer {
-	color: #AAA;	
+	color: @grayLight;
 }
