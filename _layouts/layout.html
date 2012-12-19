@@ -1,5 +1,5 @@
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
     <title>Template &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,19 +21,17 @@
     <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
-<body>
+  <body>
+
 	<div class="container">
-  <hr/>
-
-	{{ content }}
-	<hr/>
-
-  {% include footer.html %}
-
-  </div>
+      <hr/>
+	  {{ content }}
+	  <hr/>
+      {% include footer.html %}
+    </div>
 
 	<!-- Placed at the end of the document so the pages load faster -->
 	{% include bootstrap.js.html %}
-</body>
-
+	{% include analytics.js.html %}
+  </body>
 </html>
