@@ -1,38 +1,13 @@
 ---
-layout: default
-
-main_value: Prevent fraud
-
-benefit_1: Identify fraudulent transactions.
-copy_1: Scan user generated input and content for suspicious behavior.
-
-benefit_2: Always accurate with no false positives.
-copy_2: Adaptive algorithms learn to distinguish real users from bots and attackers.
-
-benefit_3: Software Install. No Hardware.
-copy_3: Integrates quickly into your software stack. No hardware to install, no need to re-write existing code.
-
-button_text: Plans & Pricing
-second_page_location: return.html
+layout: main
 ---
 
-<div class="row-fluid marketing">
-  <div class="span8">
-    <h2>{{ page.benefit_1 }}</h2>
-    <p>{{ page.copy_1 }}</p>
+<div class="row-fluid result">
+  <div class="span8 offset2">
+    <h2>Hello! You caught us before we're ready.</h2>
+    <p>We're working hard to put the finishing touches onto {{ site.app_name }}. If you'd like us to send you a reminder when we're ready, just put your email in below.</p>
 
-    <h2>{{ page.benefit_2 }}</h2>
-    <p>{{ page.copy_2 }}</p>
+    {% include mail_form.html %}
 
-    <h2>{{ page.benefit_3 }}</h2>
-    <p>{{ page.copy_3 }}</p>
-  </div>
-
-  <div class="span4 button-center">
-	<div style="position:relative;top:55px;left:-165px">
-	  <img style="position:absolute" src="/bootstrap/img/arrow.png">
-	</div>
-
-	<a class="btn btn-large btn-success" href="{{ page.second_page_location }}">{{ page.button_text }}</a>
   </div>
 </div>
