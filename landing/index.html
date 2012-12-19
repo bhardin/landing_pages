@@ -1,9 +1,17 @@
 ---
 layout: default
-main_value: Prevent fraud and spam
-benefit_1: Choose times to tweet.
-benefit_2: Add tweets to your buffer.
-benefit_3: buffer does the rest. Relax.
+
+main_value: Prevent fraud
+
+benefit_1: Identify fraudulent transactions.
+copy_1: Scan user generated input and content for suspicious behavior.
+
+benefit_2: Always accurate with no false positives.
+copy_2: Adaptive algorithms learn to distinguish real users from bots and attackers.
+
+benefit_3: Easy setup, no hardware to install.
+copy_3: Integrates quickly into your existing software stack. No hardware to install, no need to re-write code.
+
 button_text: Plans & Pricing
 second_page_location: return.html
 ---
@@ -11,13 +19,13 @@ second_page_location: return.html
 <div class="row-fluid marketing">
   <div class="span8">
     <h2>{{ page.benefit_1 }}</h2>
-    <p>For example, 3 times a day at 9:30, 13:30 and 17:30.</p>
+    <p>{{ page.copy_1 }}</p>
 
     <h2>{{ page.benefit_2 }}</h2>
-    <p>Manually or with our handy browser extensions.</p>
+    <p>{{ page.copy_2 }}</p>
 
     <h2>{{ page.benefit_3 }}</h2>
-    <p>We tweet for you. Just keep that buffer topped up!</p>
+    <p>{{ page.copy_3 }}</p>
   </div>
 
   <div class="span4 button-center">
